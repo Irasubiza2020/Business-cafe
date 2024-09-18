@@ -9,7 +9,8 @@ const Footer = () => {
   return (
     <div className="relative mt-16">
       {/* Divider line with margins on both sides */}
-      <div className="w-full min-h-0.5 bg-primary"></div>
+      <div className="min-h-0.5 bg-primary ml-16 mr-16 max-w-full"></div>
+
 
       {/* Footer content */}
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-12 mt-9 w-full px-8">
@@ -64,7 +65,8 @@ const Footer = () => {
         </div>
      
       </div>
-      <div className="w-full min-h-0.5 bg-primary mt-6"></div>
+      <div className="min-h-0.5 bg-primary ml-16 mr-16 max-w-full mt-6"></div>
+
       <div className='flex text-center justify-center mt-6 mb-6 text-[20px] font-semibold'> Copyright © 2023 Business Coffee All rights reserved </div>
     </div>
   );
