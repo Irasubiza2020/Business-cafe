@@ -8,57 +8,56 @@ const ServiceData = [
   {
     id: 1,
     image: Img1,
-    title: ' Renting Offices',
-     description: ' Lorem ipsum dolor sit amet consectetur adipiscing elit mollis mauris.'
+    title: 'Renting Offices',
+    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis mauris.'
   },
   {
     id: 2,
     image: Img2,
-    title: ' Coffee Shop',
-    description: ' Lorem ipsum dolor sit amet consectetur adipiscing elit mollis mauris.'
+    title: 'Coffee Shop',
+    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis mauris.'
   },
   {
     id: 3,
     image: Img3,
-    title: 'Private event Space',
-    description: ' Lorem ipsum dolor sit amet consectetur adipiscing elit mollis mauris.'
+    title: 'Private Event Space',
+    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis mauris.'
   }
-  // Add more services as needed 
+  // Add more services as needed
 ];
 
 const Services = () => {
   return (
-    <div className='flex flex-col items-center justify-center mt-16'>
-      <div className='flex items-center justify-center font-bold text-3xl mb-10'>
-        {/* Title Section */}
-        <h1 >We Offer Creative Working Environments</h1>
-      </div>
+    <div className='flex flex-col items-center justify-center mt-16 px-4 sm:px-8 lg:px-16'>
+      {/* Title Section */}
+      <h1 className='font-bold text-3xl sm:text-4xl text-center mb-6'>
+        We Offer Creative Working Environments
+      </h1>
 
-      <div className='flex items-center justify-center mb-10'>
-        {/* Paragraph Section */}
-        <p className='text-center max-w-lg text-[20px]'>
-          At our company, we are committed to providing innovative and inspiring workspaces
-        </p>
-      </div>
+      {/* Paragraph Section */}
+      <p className='text-center max-w-2xl text-lg sm:text-xl mb-12'>
+        At our company, we are committed to providing innovative and inspiring workspaces.
+      </p>
 
       {/* Cards Section */}
-      <div className='flex flex-start justify-between gap-2 left-16 right-16  '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
         {ServiceData.map((data) => (
           <div 
             key={data.id} 
-            className='bg-white  p-8 w-[450px]  border-  border-primary'  >
+            className='bg-white p-6 rounded-lg shadow-md transform transition hover:scale-105 duration-300'
+          >
             <img 
               src={data.image} 
               alt={data.title} 
-              className='w-full h-64 object-cover  mb-4'
+              className='w-full h-64 object-cover mb-4 rounded-md'
             />
-            <h2 className='text-2xl font-bold mb-2 text-center text-primary'>{data.title}</h2> 
+            <h2 className='text-2xl font-bold mb-2 text-center text-primary'>{data.title}</h2>
             <div className='w-16 h-1 bg-primary mb-4 mx-auto'></div>
-            <p className=' mb-4 text-center'>{data.description}</p>
+            <p className='text-center mb-4'>{data.description}</p>
             <div className='flex justify-center'>
               <a 
                 href='#' 
-                className='text-primary py-2 px-4  hover:bg-primary hover:text-white text-center'>
+                className='text-primary py-2 px-4 border border-primary rounded hover:bg-primary hover:text-white transition duration-200'>
                 Learn More
               </a>
             </div>
@@ -66,7 +65,7 @@ const Services = () => {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default Services;
