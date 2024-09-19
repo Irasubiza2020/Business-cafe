@@ -37,7 +37,7 @@ const About = () => {
           </p>
           <a 
             href='#' 
-            className='text-primary text-2xl sm:text-3xl font-light hover:bg-primary hover:text-white block'
+            className='text-primary text-2xl sm:text-2xl font-light hover:bg-primary hover:text-white block'
           >
             Learn more
           </a>
