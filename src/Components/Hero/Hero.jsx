@@ -32,7 +32,7 @@ const Hero = () => {
 
           {/* Button */}
           <div className='mt-8'>
-            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md'>
+            <button className='font-bold bg-primary text-white text-lg sm:text-2xl py-3 px-6 rounded-md hover:bg-secondary hover:text-primary '>
               Explore
             </button>
           </div>

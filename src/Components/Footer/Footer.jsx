@@ -26,18 +26,23 @@ const Footer = () => {
           Discover your ideal workspace with us. Work smart, not hard in our fully-equipped office spaces.
           </p>
           <div className='flex space-x-4'>
-            <div className='flex items-center justify-center w-10 h-10 rounded-full  text-primary'>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className='flex items-center justify-center w-10 h-10 rounded-full hover:text-black hover:bg-secondary   text-primary'>
               <CiFacebook className='text-2xl' />
-            </div>
-            <div className='flex items-center justify-center w-10 h-10 rounded-full  text-primary'>
+            </div></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className='flex items-center justify-center w-10 h-10 rounded-full hover:text-black hover:bg-secondary  text-primary'>
               <CiLinkedin className='text-2xl' />
-            </div>
-            <div className='flex items-center justify-center w-10 h-10 rounded-full  text-primary'>
+            </div></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className='flex items-center justify-center w-10 h-10 rounded-full hover:text-black hover:bg-secondary  text-primary'>
               <FaInstagram className='text-2xl' />
-            </div>
-            <div className='flex items-center justify-center w-10 h-10 rounded-full  text-primary'>
-              <FaSquareXTwitter className='text-2xl' />
-            </div>
+            </div></a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+           <div className='flex items-center justify-center w-10 h-10 rounded-full hover:text-black hover:bg-secondary text-primary'>
+           <FaSquareXTwitter className='text-2xl' />
+            </div></a>
+
           </div>
         </div>
 
@@ -61,6 +66,7 @@ const Footer = () => {
             <li><a href="#" className='font-bold'>Email: <span className='font-normal'>businesscafe@info.com</span></a></li>
             <li><a href="#" className='font-bold'>Phone:<span className='font-normal'> +250783787817</span></a></li>
             <li><a href="#" className='font-semibold text-primary'> View Location on GoogleMap</a></li>
+            <div className="min-h-0.5 bg-primary w-64  "></div>
           </ul>
         </div>
      

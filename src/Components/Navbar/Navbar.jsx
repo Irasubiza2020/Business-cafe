@@ -30,8 +30,9 @@ const Navbar = () => {
             <li className='p-5 font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#about'>About</a></li>
             <li className='p-5 font-bold text-xl sm:text-2xl md:text-lg hover:text-primary'><a href='#contact'>Contact</a></li>
           </ul>
-        </div>
-      </div>
+  
+          </div>
+         </div>
     </div>
   );
 };
