@@ -16,7 +16,6 @@ function App() {
     <Benefites/>
     <Mission/>
     <Footer/>
-
     </div>
   );
 }

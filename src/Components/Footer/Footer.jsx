@@ -66,7 +66,7 @@ const Footer = () => {
             <li><a href="#" className='font-bold'>Email: <span className='font-normal'>businesscafe@info.com</span></a></li>
             <li><a href="#" className='font-bold'>Phone:<span className='font-normal'> +250783787817</span></a></li>
             <li><a href="#" className='font-semibold text-primary'> View Location on GoogleMap</a></li>
-            <div className="min-h-0.5 bg-primary w-64  "></div>
+           
           </ul>
         </div>
      
