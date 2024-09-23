@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-20 top-6'>
+    <div className='bg-white duration-200 relative z-20 top-6'>
       <div className='container mx-auto flex justify-between items-center px-4 md:px-8 lg:px-12 py-4'>
         {/* Logo and Name Section */}
         <a href='#' className='font-bold text-2xl sm:text-3xl flex gap-2 items-center'>
