@@ -4,13 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-16 px-4">
       {/* Circles Section */}
-      <div className="flex items-center justify-center">
-        {/* Filled Circle */}
-        <div className="w-5 h-5 bg-primary rounded-full mx-4"></div>
-
-        {/* Outlined Circle */}
-        <div className="w-5 h-5 border-4 border-primary rounded-full mx-4"></div>
-      </div>
+     
 
       {/* About Us Section */}
       <div className="container flex flex-col md:flex-row justify-between items-center mt-10 w-full gap-8">

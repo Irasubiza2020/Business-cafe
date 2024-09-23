@@ -64,6 +64,13 @@ const Services = () => {
           </div>
         ))}
       </div>
+      <div className="flex items-center justify-center ">
+        {/* Filled Circle */}
+        <div className="w-5 h-5 bg-primary rounded-full mx-6 mt-8"></div>
+
+        {/* Outlined Circle */}
+        <div className="w-5 h-5 border-4 border-primary rounded-full mx-4 mt-8"></div>
+      </div>
     </div>
   );
 }
